@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="new_inventory_tree">
+        <field name="name">New Tree</field>
+        <field name="model">stock.move.line</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="lot_name"/>
+                <field name="production_id"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
