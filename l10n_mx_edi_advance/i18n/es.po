@@ -1,0 +1,202 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#    * l10n_mx_edi_advance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-23 03:42+0000\n"
+"PO-Revision-Date: 2018-12-23 03:42+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mx_edi_advance
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_advance.res_config_settings_view_form_advance
+msgid "<span class=\"o_form_label\">Advances</span>"
+msgstr ""
+
+#. module: l10n_mx_edi_advance
+#: model:product.product,uom_name:l10n_mx_edi_advance.product_product_advance
+#: model:product.template,uom_name:l10n_mx_edi_advance.product_product_advance_product_template
+#: model:uom.uom,name:l10n_mx_edi_advance.product_uom_act
+msgid "ACT"
+msgstr ""
+
+#. module: l10n_mx_edi_advance
+#: model:uom.category,name:l10n_mx_edi_advance.product_uom_categ_act
+msgid "Activity"
+msgstr "Actividad"
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model.fields,field_description:l10n_mx_edi_advance.field_res_company__l10n_mx_edi_journal_advance_id
+#: model:ir.model.fields,field_description:l10n_mx_edi_advance.field_res_config_settings__l10n_mx_edi_journal_advance_id
+msgid "Advance Journal"
+msgstr "Diario de Anticipos"
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model.fields,field_description:l10n_mx_edi_advance.field_res_company__l10n_mx_edi_product_advance_id
+#: model:ir.model.fields,field_description:l10n_mx_edi_advance.field_res_config_settings__l10n_mx_edi_product_advance_id
+msgid "Advance product"
+msgstr "Producto de Anticipos"
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_move.py:27
+#, python-format
+msgid "Advance: %s"
+msgstr "Anticipo: %s"
+
+#. module: l10n_mx_edi_advance
+#: model:product.product,name:l10n_mx_edi_advance.product_product_advance
+#: model:product.template,name:l10n_mx_edi_advance.product_product_advance_product_template
+msgid "Application of Advances"
+msgstr "Aplicación de anticipos"
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model,name:l10n_mx_edi_advance.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model,name:l10n_mx_edi_advance.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: l10n_mx_edi_advance
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_advance.res_config_settings_view_form_advance
+msgid "Configuration of advances"
+msgstr "Configuración de anticipos"
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model,name:l10n_mx_edi_advance.model_account_move
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_mx_edi_advance
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_advance.res_config_settings_view_form_advance
+msgid "Journal"
+msgstr "Diario"
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model,name:l10n_mx_edi_advance.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_invoice.py:27
+#, python-format
+msgid "Outstanding credits as Advance"
+msgstr "Créditos pendientes como anticipo"
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model,name:l10n_mx_edi_advance.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: l10n_mx_edi_advance
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_advance.res_config_settings_view_form_advance
+msgid "Product"
+msgstr "Producto"
+
+#. module: l10n_mx_edi_advance
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_advance.res_config_settings_view_form_advance
+msgid "Product and journal that will be used to create the advances automatically."
+msgstr "Producto y diario que serán utilizados para crear anticipos automáticamente"
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/res_config_settings.py:29
+#, python-format
+msgid "The accounts for the advance product need to be set up for any advance operation."
+msgstr "Las cuentas para este producto de anticipos deben configurarse para cualquier operación de anticipo."
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_invoice.py:130
+#, python-format
+msgid "The credit note was not created automatically because this invoice is not signed.\n"
+" Retry to sign it and create the credit note from the add credit note button."
+msgstr "La nota de crédito no se creó automáticamente porque esta factura no está firmada.\n"
+" Vuelva a intentar firmarla y cree la nota de crédito desde el botón Agregar nota de crédito."
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_invoice.py:167
+#, python-format
+msgid "<p>The credit note was not created because the advance was used in another invoice or it is not in this system.</p>"
+"<p>So please, follow one of these actions:</p>"
+"<li>Cancel this invoice and remove the related advance.</li>"
+"<li>Create the credit note manually.</li>"
+msgstr "<p>La nota de crédito no fue creada porque el anticipo fue usado en otra factura o no está en este sistema.</p>"
+"<p>Así que por favor sigue una de estas acciones:</p>"
+"<li>Cancelar esta factura y elimina el anticipo relacionado.</li>"
+"<li>Crear la nota de crédito manualmente.</li>"
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_invoice.py:162
+#, python-format
+msgid "The invoice is not signed, and the UUID is required to relate the documents."
+msgstr "La factura no está firmada y el UUID es requerido para relacionar los documentos."
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_payment.py:42
+#, python-format
+msgid "The journal that must be used in the advance invoice is not configured in the accounting settings."
+msgstr "El diario que será utilizado en la factura de anticipo no esta configurado en las configuraciones contables."
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_payment.py:38
+#, python-format
+msgid "The product that must be used in the advance invoice line is not configured in the accounting settings."
+msgstr "El producto que será utilizado en la linea de la factura de anticipo no esta configurado en las configuraciones contables."
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_payment.py:80
+#, python-format
+msgid "This invoice has been created from a outstanding payment"
+msgstr "Esta factura fue creada desde un pago pendiente"
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_move.py:56
+#, python-format
+msgid "This is a Journal Entry to handle advance payments with a receivable account and use the payment widget of outstanding credit.\n"
+"This advance is the CFDI: %s, invoice_id: %s."
+msgstr "Esto es un asiento para manejar pagos de anticipos con una cuenta por cobrar y usar el widget de pago para créditos pendientes.\n"
+"Este anticipo es el CFDI: %s, invoice_id: %s."
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model.fields,help:l10n_mx_edi_advance.field_res_company__l10n_mx_edi_journal_advance_id
+#: model:ir.model.fields,help:l10n_mx_edi_advance.field_res_config_settings__l10n_mx_edi_journal_advance_id
+msgid "This journal will be used in the advance invoices that are created automatically when is registered a payment without documents related or with a difference in favor of the customer."
+msgstr "Este diario será utilizado en las facturas de anticipos que se crean automáticamente cuando es registrado un pago sin documentos relacionados o con una diferencia en favor del cliente."
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_payment.py:61
+#, python-format
+msgid "This payment do not generate advance because the customer has invoices with pending payment."
+msgstr "Este pago no generó anticipo porque el cliente tiene facturas con pagos pendientes."
+
+#. module: l10n_mx_edi_advance
+#: model:ir.model.fields,help:l10n_mx_edi_advance.field_res_company__l10n_mx_edi_product_advance_id
+#: model:ir.model.fields,help:l10n_mx_edi_advance.field_res_config_settings__l10n_mx_edi_product_advance_id
+msgid "This product will be used in the advance invoices that are created automatically when is registered a payment without documents related or with a difference in favor of the customer."
+msgstr "Este producto será utilizado en las facturas de anticipos que se crean automáticamente cuando es registrado un pago sin documentos relacionados o con una diferencia en favor del cliente."
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/account_payment.py:66
+#, python-format
+msgid "This record cannot create the advance document automatically for the next reason: %sFor this record, you need create the invoice manually and reconcile it with this payment or cancel and validate again after that the data was completed."
+msgstr "Este registro no generó documento de anticipos automáticamente por la siguiente razón: %sPara este registro, se necesita crear la factura manualmente y conciliar con este pago o cancelar y validar después de completar la información"
+
+#. module: l10n_mx_edi_advance
+#: model:product.product,weight_uom_name:l10n_mx_edi_advance.product_product_advance
+#: model:product.template,weight_uom_name:l10n_mx_edi_advance.product_product_advance_product_template
+msgid "kg"
+msgstr ""
+
+#. module: l10n_mx_edi_advance
+#: code:addons/l10n_mx_edi_advance/models/res_config_settings.py:34
+#, python-format
+msgid "The journal for advance needs to allow cancellation."
+msgstr "El diario de anticipos debe permitir cancelación."
