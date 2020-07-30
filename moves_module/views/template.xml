@@ -7,7 +7,6 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="date"/>
-                <field name="production_id"/>
                 <field name="qty_done"/>
                 <field name="state"/>
             </tree>
