@@ -4,7 +4,7 @@
         <field name="name">New Tree</field>
         <field name="model">stock.move.line</field>
         <field name="type">tree</field>
-        <field name="groups" eval="[(4, ref('production_id.	routing_id'))]"/>
+        <field name="groups" eval="[(4, ref('production_id.routing_id'))]"/>
         <field name="arch" type="xml">
             <tree>
                 <field name="date"/>
