@@ -5,7 +5,7 @@
     'author': 'Blautech',
     'company': 'Blautech',
     'website': "https://blautech.us/",
-    'depends': ['base', 'stock_move_line'],
+    'depends': ['base', 'stock'],
     'data': ['views/template.xml']
 
 }
